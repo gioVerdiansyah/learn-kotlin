@@ -1,8 +1,5 @@
 fun main() {
-    val name = "Kotlin"
-    println("Hello, $name!")
+    val scores: List<Int> = listOf(90, 78, 88, 76, 81, 91, 88, 98, 82)
 
-    for (i in 1..5) {
-        println("i = $i")
-    }
+    println(scores.sum() / 10)
 }

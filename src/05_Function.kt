@@ -19,6 +19,8 @@ fun sum(vararg params: Int): Int{
     return total
 }
 
+fun increase(val1: Int, val2: Int) = val1 + val2
+
 fun main(){
     sayHello()
     sayTo("Adi")
@@ -26,5 +28,7 @@ fun main(){
 
     val myNum: IntArray = intArrayOf(11,12,13,14,15)
     println(sum(1,2,3,4,5,6,7,8,9,10, *myNum))
-//    *myNum is a rest
+//    *myNum is a
+
+    println(increase(5,5))
 }
