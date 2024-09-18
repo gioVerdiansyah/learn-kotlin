@@ -12,5 +12,6 @@ fun main() {
 
     println(intArr)
     println(mixArr.contentToString())
+    println(mixArr[2])
     println(mixArr.last())
 }
