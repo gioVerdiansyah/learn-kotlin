@@ -41,7 +41,7 @@ fun handleMultipleErrors() {
     } catch (e: ArithmeticException) {
         println("Error: Division by zero is not allowed (${e.message})")
     } finally {
-        println("Execution finished.")
+        println("Completely finished.")
     }
 }
 

@@ -1,3 +1,5 @@
+package Collection
+
 fun main() {
     val myMap: Map<String, String> = mapOf(
         "name" to "Verdi",
@@ -20,4 +22,8 @@ fun main() {
     for ((k, v) in myData) {
         println("$k: $v")
     }
+
+    val mutableMap = myMap.toMutableMap()
+    mutableMap.put("data", emptyList<String>().toString())
+    println(mutableMap)
 }

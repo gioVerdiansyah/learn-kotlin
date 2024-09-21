@@ -1,4 +1,4 @@
-// The different of array is
+package Collection// The different of array is
 // Array can change value like this
 // myArr[1] = 'A'
 // But List is cannot
