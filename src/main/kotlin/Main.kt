@@ -1,4 +1,5 @@
 import com.sun.jdi.InterfaceType
+import kotlin.collections.List
 
 interface IStudent {
     fun getStudentName(): String
